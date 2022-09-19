@@ -1,7 +1,7 @@
 from django.urls import path
-from . import viwes
+from . import views
 urlpatterns = [
-    path('',viwes.Home, name='home'),
-    path('about/',viwes.about,name='about'),
-    path('contact/',viwes.contact,name='contact'),
+    path('',views.Home, name='home'),
+    path('about/',views.about,name='about'),
+    path('contact/',views.contact,name='contact'),
 ]
